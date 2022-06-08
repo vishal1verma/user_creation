@@ -207,10 +207,7 @@ dbca -silent -createDatabase \
  -characterSet AL32UTF8 \
  -sysPassword SysPassword1 \
  -systemPassword SysPassword1 \
- -createAsContainerDatabase true \
- -numberOfPDBs 1 \
- -pdbName ${PDB_NAME} \
- -pdbAdminPassword PdbPassword1 \
+ -createAsContainerDatabase false \
  -databaseType MULTIPURPOSE \
  -memoryMgmtType auto_sga \
  -totalMemory 2000 \
